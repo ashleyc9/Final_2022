@@ -122,7 +122,8 @@ chisqtestGC(table1)
 femalesfish <- fisher.test(table1)
 femalesfish
 ```
-
+  
+Since the p-value (3e-04) is less than the conventional significance level of .05, we can reject the null hypothesis and conclude that there is a significant association between the infection status and the treatment.
 
 
 ## LGBTQ
