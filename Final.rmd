@@ -51,6 +51,15 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 This barplot shows how many males got effected by the vaccine or the placebo. The data shows that there is more males that took the vaccine but still ended up getting covid-19. Even some that took the placebo which was a smaller percentage than the vaccine, still got covid-19 as well. 
 
+##Numerical Results
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=males)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
 
 ## Females
 
