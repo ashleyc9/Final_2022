@@ -79,6 +79,11 @@ effect <- malesfish$p.value/(malesfish$p.value +1)
 effectivenessguy = malesfish$estimate/(malesfish$estimate +1)*100
 print(effectivenessguy)
 ```
+```{r}
+low=(malesfish$conf.int[1]/(malesfish$conf.int[1] +1))*100
+hi=(malesfish$conf.int[2]/(malesfish$conf.int[2] +1))*100
+options(digits=2)
+```
 
 
 
