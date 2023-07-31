@@ -1,12 +1,12 @@
 ---
 title: "Covid91 vaccine study Final2023"
-author: "Put your name here!"
+author: "Ashley Cook"
 output: 
   html_document:
     number_sections: true
     toc: true
     toc_depth: 5
-date: "`r Sys.Date()`" 
+date: "July 31, 2023" 
 ---
 
 ```{r include=FALSE,echo=FALSE}
