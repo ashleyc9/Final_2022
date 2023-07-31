@@ -179,6 +179,8 @@ LGBTQfish
 This shows that there is a p-value of 7e-08. This indicates a highly significant association between the infection status and the treatment.This shows that the vaccine has a higher effectiveness rate that does not protect you from covid-19. 
 
 
+
+
 ## Druggies
 
 ```{r}
@@ -230,5 +232,6 @@ hi=(Druggiesfish$conf.int[2]/(Druggiesfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
+The odds ratio is a 11, which is the lowest out of all the groups. This shows that there was not a huge reaction between the two varuiables vaccine and placebo.
 
 # Overall Results and Conclusions
