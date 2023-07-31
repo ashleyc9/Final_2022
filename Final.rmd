@@ -70,7 +70,7 @@ malesfish <- fisher.test(table1)
 malesfish
 ```
   
-
+For this chi-squared test, shows that the males who took the vaccine are more likely to get covid-19. The p-value for this shows a 4.631e-14, which is not a good number to see. The lower the p-value have the better results. Covid-19 does show that the illness can also be based off gender, since each body is different and reacts differently from covid-19. 
 
 
 ## Females
