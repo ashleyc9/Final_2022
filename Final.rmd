@@ -48,7 +48,8 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-
+  
+This barplot shows how many males got effected by the vaccine or the placebo. The data shows that there is more males that took the vaccine but still ended up getting covid-19. Even some that took the placebo which was a smaller percentage than the vaccine, still got covid-19 as well. 
 
 
 ## Females
