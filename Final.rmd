@@ -157,6 +157,15 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 By the looks of this chart, the LGBTQ community was more affected by taking the vaccine than the placebo. There was a percentage of around 15% of LGBTQ that took the placebo, while 85% took the vaccine and got covid-19. Than the second group, shows that 100 LGBTQ took the placebo and vaccine but did not get covid-19.
 
+## Numerical Results
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=LGBTQ)
+rowPerc(table1)
+colPerc(table1)
+```
+  
+
 
 ## Druggies
 
