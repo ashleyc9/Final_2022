@@ -101,7 +101,8 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-
+  
+This plot shows that the vaccine protected more females from covid-19 than the placebo. There was a higher percentage of females who took the placebo but still ended up getting infected. There was 60% of females who got infected by taking placebo and about 39% from the vaccine. 
 
 ## LGBTQ
 
