@@ -84,7 +84,8 @@ low=(malesfish$conf.int[1]/(malesfish$conf.int[1] +1))*100
 hi=(malesfish$conf.int[2]/(malesfish$conf.int[2] +1))*100
 options(digits=2)
 ```
-
+  
+For the odds ratio it shows that it is at a 69.15981, which is a high number that the odds of people taking the vaccine are getting effected by covid-19. 
 
 
 ## Females
