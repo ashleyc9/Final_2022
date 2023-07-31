@@ -137,7 +137,8 @@ low=(femalesfish$conf.int[1]/(femalesfish$conf.int[1] +1))*100
 hi=(femalesfish$conf.int[2]/(femalesfish$conf.int[2] +1))*100
 options(digits=2)
 ```
-
+  
+For the females, they have an odds ratio of 60 while the males had 69. The males were more effected so far by covid-19 than the females. So by this, shows that there was a reaction between the placebo and the vaccine. 
 
 
 ## LGBTQ
