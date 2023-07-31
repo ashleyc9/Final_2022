@@ -61,6 +61,16 @@ colPerc(table1)
   
 These results show the percentages of males who got covid-19 from taking the placebo and those who did not. Those who took the placebo which is 69% got covid-19, while only 30%  got covid-19 from taking the vaccine. So the vaccine does not prevent males getting covid-19 as well as taking the placebo.  
 
+## Inferential
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+malesfish <- fisher.test(table1)
+malesfish
+```
+
+
 
 ## Females
 
