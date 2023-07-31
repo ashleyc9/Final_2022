@@ -167,6 +167,18 @@ colPerc(table1)
   
 Based on the numerical results, the vaccine took an effect on the LGBTQ community rather than the placebo took more an effect on the males and females. But, the LGBTQ community did have more of a higher percentage of people who were okay after taking the placebo and vaccine, than the other two groups. 
 
+## Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+LGBTQfish <- fisher.test(table1)
+LGBTQfish
+```
+  
+
+
+
 ## Druggies
 
 
