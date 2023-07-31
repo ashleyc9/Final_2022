@@ -69,6 +69,7 @@ chisqtestGC(table1)
 malesfish <- fisher.test(table1)
 malesfish
 ```
+  
 
 
 
