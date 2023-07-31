@@ -192,6 +192,7 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-
+  
+For the druggies, the vaccine effected them more than by taking the placebo to prevent covid-19. With the percentage of 81% of druggies who took the vaccine and 9% of druggies who took the placebo. More druggies were not effected by the placebo than the vaccine by like 2%.
 
 # Overall Results and Conclusions
