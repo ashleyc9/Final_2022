@@ -18,11 +18,22 @@ FinalDat <-read.csv(file="final.csv",header=TRUE)
 FinalData <- FinalDat  %>% select(-one_of("X"))
 FinalData <- FinalData %>%
 mutate(across(where(is.character), as.factor))
+FinalData$treatment <- relevel(FinalData$treatment,ref="placebo")
+#FinalData$infected <- relevel(FinalData$infected,ref="OK")
+males = filter(FinalData, sex =="M")
+females = filter(FinalData, sex =="F")
+LGBTQ = filter(FinalData, LGBTQ =="gay")
+Druggies = filter(FinalData, DrugUser =="yes")
+
 ```
 
 # Introduction
 
 A new  preventative vaccine (covid921) is under test in clinical trials. Given the nature of this vaccine it is suspected that the drug may exhibit different effectiveness across the variety of subpopulations tracked. Consider population subgroups by gender( guys and gals), drug use, and sexual orientation. Write a complete report that separately considers this drug for each subgroup and your recommendations as to whether people in the subgroup should take the vaccine. Structure your report in four sections each devoted to one of the four subgroups, use null and alternative hypothesis statements and correct statistical verbage when referencing p-values in conclusions.
+
+##Methods
+
+In this Final, we will be looking at data from each group that have got the placebo and had a reaction from it as in getting sick; and, how many people got covid without taking the vaccine. The groups are Males, Females, LGBTQ and Druggies. We will be looking at data from barplots, numerical results, inferential results, and the effectiveness confidence interval. At the very end, I will explain which group was most effective from taking the vaccine for covid. 
 
 ## Males
 
