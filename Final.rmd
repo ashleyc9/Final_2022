@@ -176,7 +176,7 @@ LGBTQfish <- fisher.test(table1)
 LGBTQfish
 ```
   
-
+This shows that there is a p-value of 7e-08. This indicates a highly significant association between the infection status and the treatment.This shows that the vaccine has a higher effectiveness rate that does not protect you from covid-19. 
 
 
 ## Druggies
