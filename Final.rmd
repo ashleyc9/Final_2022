@@ -195,4 +195,14 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 For the druggies, the vaccine effected them more than by taking the placebo to prevent covid-19. With the percentage of 81% of druggies who took the vaccine and 9% of druggies who took the placebo. More druggies were not effected by the placebo than the vaccine by like 2%.
 
+## Numerical Results
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=Druggies)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+
 # Overall Results and Conclusions
