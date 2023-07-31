@@ -216,4 +216,19 @@ Druggiesfish
   
 There is a p-value of 3e-09. This supports that there is strong evidence and effectiveness between the infected and treatment rates. 
 
+## Effectiveness Confidence Interval
+
+```{r}
+effect <- Druggiesfish$p.value/(Druggiesfish$p.value +1)
+effectivenessDruggie = Druggiesfish$estimate/(Druggiesfish$estimate +1)*100
+print(effectivenessDruggie)
+```
+
+```{r}
+low=(Druggiesfish$conf.int[1]/(Druggiesfish$conf.int[1] +1))*100
+hi=(Druggiesfish$conf.int[2]/(Druggiesfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+
 # Overall Results and Conclusions
