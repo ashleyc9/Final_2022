@@ -213,6 +213,7 @@ chisqtestGC(table1)
 Druggiesfish <- fisher.test(table1)
 Druggiesfish
 ```
-
+  
+There is a p-value of 3e-09. This supports that there is strong evidence and effectiveness between the infected and treatment rates. 
 
 # Overall Results and Conclusions
