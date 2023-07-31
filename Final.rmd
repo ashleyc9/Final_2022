@@ -111,6 +111,8 @@ table1 <- xtabs(~infected + treatment, data=females)
 rowPerc(table1)
 colPerc(table1)
 ```
+  
+About 60 females got infected by covid-19 from taking the placebo while 40 females got infected by covid-19 from the vaccine. Out of 100 females, 50 on both sides were okay from taking the placebo and the vaccine. For the 2nd group, there were more people that did not get covid-19 from either the placebo or vaccine. 
 
 ## LGBTQ
 
