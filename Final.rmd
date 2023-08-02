@@ -221,6 +221,8 @@ colPerc(table1)
   
 More druggies did get effected by taking the vaccine and ended up getting covid-19 than the rest who took the placebo. group 2 had more druggies who did not get effected at all, than the first group. But in the first group, more people did not get covid-19 by taking the placebo than the vaccine. 
 
+
+
 ## Inferential Results
 
 ```{r}
