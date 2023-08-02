@@ -250,6 +250,8 @@ options(digits=2)
 
 The odds ratio is a 11, which is the lowest out of all the groups. This shows that there was not a huge reaction between the two varuiables vaccine and placebo.
 
+
+
 # Overall Results and Conclusions
 
 Out of the 4 groups we looked at data from, the highest odd ratio was from the males with a 69. The females had the smallest p-value of 3e-04 which supports the null hypothesis and supports stronger evidence. The druggies got infected from covid-19 by taking the vaccine the most out of the 4 groups. The males got infected by covid-19 from taking the placebo the most out of the 4 groups. When it comes to the 2nd group of data from each group, the 2nd group did good when it came to getting infected from either the placebo or vaccine. 
